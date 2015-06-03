@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <title>获取浏览器与服务器时间的差</title>
+</head>
+<body>
+
+</body>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script src="interval.js"></script>
+<script>
+
+    $.interval().done(function(interval){
+        alert('服务器时间与浏览器时间差为(ms)： ' + interval);
+    });
+
+</script>
+</html>
